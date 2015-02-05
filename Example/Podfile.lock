@@ -1,0 +1,14 @@
+PODS:
+  - LFAdTableViewController (1.0.0.0)
+
+DEPENDENCIES:
+  - LFAdTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  LFAdTableViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LFAdTableViewController: faf49d1c849819ac4cdfed88611c93e112188e92
+
+COCOAPODS: 0.36.0.beta.1
