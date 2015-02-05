@@ -1,5 +1,5 @@
 //
-//  UITableViewController+AdView.h
+//  LFAdTableViewController.h
 //  LFAdTableViewController
 //
 //  Created by leak4mk0 on 02/01/2015.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITableViewController (AdView)
+#import "UITableViewController+AdView.h"
 
-@property id adView;
-@property BOOL adIsShown;
+@interface LFAdTableViewController : UITableViewController
 
 @end
