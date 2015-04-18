@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LFAdTableViewController"
-  s.version          = "1.0.0.1"
+  s.version          = "1.0.1"
   s.summary          = "LFAdTableViewController is UITableViewController with AdView."
   s.description      = <<-DESC
                        LFAdTableViewController is UITableViewController with AdView.
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
                        * Call "setAdView:" and "setAdIsShown:"
                        DESC
   s.homepage         = "https://github.com/leak4mk0/LFAdTableViewController"
-  s.screenshots      = "https://raw.github.com/leak4mk0/LFAdTableViewController/1.0.0.1/screenshots_1.png",
-                       "https://raw.github.com/leak4mk0/LFAdTableViewController/1.0.0.1/screenshots_2.png"
+  s.screenshots      = "https://raw.github.com/leak4mk0/LFAdTableViewController/1.0.1/screenshots_1.png",
+                       "https://raw.github.com/leak4mk0/LFAdTableViewController/1.0.1/screenshots_2.png"
   s.license          = 'MIT'
   s.author           = { "leak4mk0" => "leak4mk0[at]gmail.com" }
   s.source           = { :git => "https://github.com/leak4mk0/LFAdTableViewController.git", :tag => s.version.to_s }

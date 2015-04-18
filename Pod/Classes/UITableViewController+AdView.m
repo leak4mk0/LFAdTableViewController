@@ -59,6 +59,11 @@
                 insets = [[self tableView] contentInset];
                 insets.bottom += [[self adView] frame].size.height;
                 [[self tableView] setContentInset:insets];
+
+                insets = [[self tableView] scrollIndicatorInsets];
+                insets.bottom += [[self adView] frame].size.height;
+                [[self tableView] setScrollIndicatorInsets:insets];
+
                 [[self tableView] addSubview:[self adView]];
 
                 [self setAdWasShown:YES];
@@ -85,6 +90,11 @@
                 insets = [[self tableView] contentInset];
                 insets.bottom -= [[self adView] frame].size.height;
                 [[self tableView] setContentInset:insets];
+
+                insets = [[self tableView] scrollIndicatorInsets];
+                insets.bottom -= [[self adView] frame].size.height;
+                [[self tableView] setScrollIndicatorInsets:insets];
+
                 [[self adView] removeFromSuperview];
 
                 [self setAdWasShown:NO];
